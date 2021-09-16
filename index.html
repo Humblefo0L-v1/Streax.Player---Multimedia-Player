@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streax.Player</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Assets/font-awesome/css/all.min.css">
+
+    
+</head>
+<body>
+
+    <div class="container" id="m_player-container">
+        <!-- <div class="body-bg">
+            <img src="/Assets/Images/andrew-schultz-EAlbsTo6nuQ-unsplash.jpg" alt="bg-Img">
+        </div> -->
+        <!-- <input type="file" id="input" accept=".mp3, .wav "> -->
+        <div class="card">
+            <audio id="play-music"></audio>
+            <div class="head-text">
+                <h3>Streax. <span>Player</span></h3>
+            </div>
+            
+            <div class="thumbnail">
+                <img src="/Assets/Images/Rewrite the Stars _ Greatest Showman Wallpaper.jpg" alt="song-cover" id="song-cover">
+            </div>
+            
+            <div class="title">
+                <p id="title">Rewrite the Stars</p>
+            </div>
+
+            <div class="artist">
+                <p id="artist">James McArthur, Anne-Marie</p>
+            </div>
+
+            <div class="progress-bar" id="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <div class="buttons">
+                
+                <i class="fas fa-backward nav-btn" id="prev"></i>
+                <i class="fas fa-play play-btn" id="play"></i>
+                <i class="fas fa-forward nav-btn" id="next"></i>
+                
+            </div>
+            <div class="progBar"></div>
+        </div>
+    </div>
+    
+    <!-- JS Files -->
+    <script src="/node_modules/jsmediatags/dist/jsmediatags.min.js"></script>
+    <script src="/main.js"></script>
+    
+</body>
+</html>
